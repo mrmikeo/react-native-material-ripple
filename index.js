@@ -71,7 +71,7 @@ export default class Ripple extends PureComponent {
     this.mounted = true;
   }
 
-  componentWillUnmount() {
+  UNSAFE_componentWillUnmount() {
     this.mounted = false;
   }
 
